@@ -14,26 +14,36 @@
 <body>
     <div class="loader" id="loader"></div>
     <section class="header">
-        <nav>
-            <a href="index.html"><img src="/images/AF0.png"></a>
-            <div class="nav-links" id="navLinks">
-                <i class="fa fa-times" onclick="hideMenu()"></i>
-                <ul>
-                <li><a href="/index.html">HOME</a></li>
-                <li><a href="/about.html">ABOUT</a></li>
-                <li><a href="/services.html">SERVICES</a></li>
-                <li><a href="/donate.html">DONATE</a></li>
-                <li><a href="/contact.html">CONTACT</a></li>
-                </ul>
-            </div>
-            <i class="fa fa-bars" onclick="showMenu()"></i>
-        </nav>
-
-        <div class="text-box">
+        <nav class="navbar">
+            <a href="index.html"><img  src="/images/AF0.png"></a>
+            <ul class="navbar__list" id="navbar__list">
+                <li class="navbar__item">
+                  <i class="fa fa-times" onclick="hideMenu()"></i>
+                </li>
+                <li class="navbar__item navbar__item--active">
+                  <a href="index.html" class="navbar__link">HOME</a>
+                </li>
+                <li class="navbar__item">
+                  <a href="about.html" class="navbar__link">ABOUT</a>
+                </li>
+                <li class="navbar__item">
+                  <a href="services.html" class="navbar__link">SERIVCES</a>
+                </li>
+                <li class="navbar__item">
+                  <a href="donate.html" class="navbar__link">DONATE</a>
+                </li>
+                <li class="navbar__item">
+                  <a href="contact.html" class="navbar__link">CONTACT</a>
+                </li>
+              </ul>
+              <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>
+    
+         <div class="text-box">
             <h1>Making the world a better place.</h1>
             <p>we are aglow aid foundation and we are on a mission to end child poverty in nigeria,<br> 
                 Join our movement today</p>
-                <a href="" class="hero-btn">Donate</a>
+                <a href="donate.html" class="hero-btn">Donate</a>
         </div>
 
     </section>
@@ -106,7 +116,7 @@
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur ab quasi repellendus maiores</p>
             </div>
             <div class="founders-col">
-                <img src="/images/me1.jpg">
+                <img class="uli" src="/images/me1.jpg">
                 <h3>founder of AAF</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur ab quasi repellendus maiores</p>
             </div>
@@ -165,7 +175,7 @@
             <!--Call to action-->
             <section class="cta">
                 <h1>Keep in touch and connect with us<br>From anywhere in the world.</h1>
-                <a href="" class="hero-btn">CONTACT US</a>
+                <a href="contact.html" class="hero-btn">CONTACT US</a>
 
             </section>
 

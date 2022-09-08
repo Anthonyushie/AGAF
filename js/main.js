@@ -25,10 +25,10 @@ document.addEventListener("DOMContentLoaded", function() {
 
 
 //code for toggle menu
-var navLinks = document.getElementById("navLinks")
+var navbar__list = document.getElementById("navbar__list")
 function showMenu(){
-    navLinks.style.right = "0"
+    navbar__list.style.right = "0"
 }
 function hideMenu(){
-    navLinks.style.right = "-200px"
+    navbar__list.style.right = "-200px"
 }
