@@ -401,8 +401,13 @@ h3{
     padding-top: 80px;
     padding-bottom: 50px;
 }
-.about-col img{
+/*.about-col img{
     width: 100%;
+}*/
+.whatwedo{
+        
+        padding: 15px 0 25px;
+        list-style: none;
 }
 .uli{
     object-fit: cover;
@@ -417,6 +422,7 @@ h3{
     padding-top: 0;
 }
 .about-col p{
+    font-size: medium;
     padding: 15px 0 25px;
 }
 .brown-btn{
