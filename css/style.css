@@ -271,18 +271,23 @@ h3{
 
 /*founders*/
 .founders{
+    
     width: 80%;
     margin: auto;
     text-align: center;
     padding-top: 100px;
 }
 .founders-col{
+    margin-right: 30px;
+    gap: 25px;
     flex-basis: 31%;
     border-radius: 10px;
     margin-bottom: 5%;
     text-align: left;
 }
 .founders-col img{
+    display: flex;
+    gap: 25px;
     width: 100%;
     border-radius: 10px;
 }
