@@ -32,3 +32,19 @@ function showMenu(){
 function hideMenu(){
     navbar__list.style.right = "-200px"
 }
+
+
+function copyToClipboard(element) {
+    var $temp = $("<input>");
+    $("body").append($temp);
+    $temp.val($(element).text()).select();
+    document.execCommand("copy");
+    $temp.remove();
+  }
+  function copyEvent(id)
+              {
+                  var str = document.getElementById(id);
+                  window.getSelection().selectAllChildren(str);
+                  document.execCommand("Copy")
+              }
+  
