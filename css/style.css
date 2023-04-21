@@ -497,7 +497,31 @@ h3{
         margin-top: 20px;
     }
     }
-
+ /*Blog*/
+    .sub-headerB{
+        height: 50vh;
+        width: 100%;
+        background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)), url(/images/blog.jpg);
+        background-position: center;
+        background-size: cover;
+        text-align: center;
+        color: #fff;
+    }
+    .sub-headerB h1{
+        margin-top: -60px;
+    }
+    @media (max-width:700px){
+        .sub-headerB h1{
+            margin-top: 20px;
+        }
+        }
+  .blog-text, h2 {
+    margin-top: 100px;
+    text-align: center;
+  }  
+  .blog-text, p{
+      margin-top: 20px;
+  }
 
 /*Donate*/
 .sub-headerD{
@@ -518,6 +542,8 @@ h3{
         margin-top: 20px;
     }
     }
+
+
 /*contact*/
 .sub-headerC{
     height: 50vh;
