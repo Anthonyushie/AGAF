@@ -307,6 +307,10 @@ h3 {
 	padding: 0px 3%;
 }
 
+.team {
+    text-align: center;
+}
+
 .founders-col img {
 	/* display: flex; */
 	/* gap: 25px; */
