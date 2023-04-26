@@ -283,7 +283,7 @@ h3 {
 	/* background-color: aquamarine; */
 	gap: 10px;
 	width: 100%;
-	padding: 20px 3%;
+	padding: 0px 3%;
 }
 
 .founders-col {
@@ -304,7 +304,7 @@ h3 {
 }
 
 .fnd {
-	padding: 20px 3%;
+	padding: 0px 3%;
 }
 
 .founders-col img {
