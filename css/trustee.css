@@ -1,0 +1,18 @@
+.navbar ul li a {
+	color: #1d1c1c;
+	text-decoration: none;
+	font-size: 13px;
+}
+
+
+@media (max-width: 718px) {
+	
+	.navbar .fa {
+		display: block;
+		color: #161616;
+		margin-top: 100px;
+		margin: 5px;
+		font-size: 22px;
+		cursor: pointer;
+	}
+}
