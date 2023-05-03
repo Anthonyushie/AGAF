@@ -218,15 +218,13 @@ h3 {
 .offer-col:hover {
 	box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2);
 }
-
-
 @media (max-width: 700px) {
 	.row {
 		flex-direction: column;
 	}
 }
 
-/*Our Activities*/
+/*************Our Activities***************/
 .activities {
 	width: 100%;
 	margin: auto;
@@ -273,7 +271,7 @@ h3 {
 	opacity: 1;
 }
 
-/*founders*/
+/**************founders****************/
 .founders {
 	width: 100%;
 	margin: auto;
@@ -290,18 +288,18 @@ h3 {
 }
 
 .founders-col {
-	/* margin-right: 30px; */
-	/* column-gap: 25px; */
-	/* flex-basis: 31%; */
+	margin-right: 30px;
+	column-gap: 25px; 
+	flex-basis: 31%; 
 	border-radius: 10px;
 	margin-bottom: 5%;
-	/* text-align: center; */
-	/* background-color: #b9983c; */
+	 text-align: center; 
+	
 	padding: 20px 15px;
 	width: 100%;
 	height: max-content;
 	display: flex;
-	flex-direction: column;
+	
 	align-items: center;
 	justify-content: center;
 }
