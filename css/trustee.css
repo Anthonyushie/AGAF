@@ -1,9 +1,21 @@
 .navbar ul li a {
-	color: #1d1c1c;
+	color: #ffffff;
 	text-decoration: none;
 	font-size: 13px;
 }
 
+.header {
+	min-height: 500px;
+	width: 100%;
+	background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)),
+		url(/images/bg_1.jpg);
+}
+
+.text-box {
+	text-align: center;
+	top: 30%;
+	font-size: 30px;
+}
 
 /* .row {
 	background-color: #161616;
@@ -14,7 +26,7 @@
 	
 	.navbar .fa {
 		display: block;
-		color: #161616;
+		color: #f7f7f7;
 		margin-top: 100px;
 		margin: 5px;
 		font-size: 22px;
