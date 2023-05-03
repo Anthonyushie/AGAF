@@ -1,5 +1,5 @@
 /** @format */
-
+@import url('https://fonts.googleapis.com/css2?family=Castoro+Titling&display=swap');
 .navbar ul li a {
 	color: #ffffff;
 	text-decoration: none;
@@ -19,6 +19,11 @@
 	text-align: center;
 	top: 50%;
 	font-size: 30px;
+}
+
+.text-box h2 {
+	font-family: 'Castoro Titling', cursive;
+	font-weight: 500;
 }
 
 .founders {
