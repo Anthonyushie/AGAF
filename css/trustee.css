@@ -1,5 +1,5 @@
 /** @format */
-@import url('https://fonts.googleapis.com/css2?family=Castoro+Titling&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Castoro+Titling&display=swap");
 .navbar ul li a {
 	color: #ffffff;
 	text-decoration: none;
@@ -8,43 +8,36 @@
 /*founders*/
 .founders2 {
 	width: 100%;
-	margin: auto;
-	/* text-align: center; */
-
-	/* background-color: #ccc2a7; */
-}
-
-.row2 {
-	/* background-color: aquamarine; */
-	gap: 10px;
-	width: 100%;
-	padding: 0px 3%;
-}
-
-.founders-col2 {
-	/* margin-right: 30px; */
-	/* column-gap: 25px; */
-	/* flex-basis: 31%; */
-	border-radius: 10px;
-	margin-bottom: 5%;
-	/* text-align: center; */
-	/* background-color: #b9983c; */
-	padding: 20px 15px;
-	width: 100%;
-	height: max-content;
+	margin-top: 10rem;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
+	/* text-align: center; */
+}
+
+.row2 {
+	gap: 10px;
+	width: 100%;
+	padding: 0px 3%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.founders-col2 {
+	border-radius: 10px;
+	text-align: center;
+	padding: 20px 15px;
+	width: 80%;
+	height: max-content;
 }
 
 .fnd {
 	padding: 0px 3%;
-    text-align: center;
+	text-align: center;
 }
-
-
-
 
 .text-box {
 	text-align: center;
@@ -53,18 +46,14 @@
 }
 
 .text-box h2 {
-	font-family: 'Castoro Titling', cursive;
+	font-family: "Castoro Titling", cursive;
 	font-weight: 500;
 }
 
-.founders2 {
-	margin-top: 10rem;
+.founders-col p {
+	text-align: center;
 }
 
-.rows2 {
-	background-color: #161616;
-	
-} 
 .founders-col2 img {
 	/* display: flex; */
 	/* gap: 25px; */
@@ -82,5 +71,8 @@
 		margin: 5px;
 		font-size: 22px;
 		cursor: pointer;
+	}
+	.founders-col2 p {
+		text-align: left;
 	}
 }
