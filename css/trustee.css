@@ -7,7 +7,7 @@
 }
 
 .header {
-	/* min-height: 500px; */
+	min-height: 500px; 
 	width: 100%;
 	background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)),
 		url(/images/trustees.jpg);
@@ -30,10 +30,10 @@
 	margin-top: 10rem;
 }
 
-/* .row {
+ .row {
 	background-color: #161616;
 	
-} */
+} 
 
 @media (max-width: 718px) {
 	.navbar .fa {
