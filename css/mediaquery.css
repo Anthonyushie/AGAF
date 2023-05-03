@@ -1,6 +1,7 @@
 /** @format */
 
 @media (max-width: 718px) {
+  /* Home Page */
 	html,
 	body {
 		max-width: 100%;
@@ -116,4 +117,9 @@
 	.sub-headerC h1 {
 		margin-top: 20px;
 	}
+
+  /* TRUSTEE */
+  .founders-col2 p{
+    font-size: 15px;
+  }
 }
