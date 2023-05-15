@@ -393,7 +393,9 @@ h3 {
 .uli {
 	object-fit: cover;
 }
-
+.about-col{
+	line-height: 30px;
+}
 .about-col h1 {
 	padding-top: 0;
 }
