@@ -464,7 +464,9 @@ h2 {
 p {
 	margin-top: 20px;
 }
-
+.blogtxt{
+	line-height: 30px;
+}
 /**************Donate************/
 .sub-headerD {
 	height: 50vh;
