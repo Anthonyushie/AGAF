@@ -402,6 +402,7 @@ h3 {
 .about-col p {
 	font-size: medium;
 	padding: 15px 0 25px;
+	line-height: 30px
 }
 .brown-btn {
 	border: 1px solid #b9983c;
