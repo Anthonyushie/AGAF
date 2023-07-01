@@ -121,5 +121,7 @@
   /* TRUSTEE */
   .founders-col2 p{
     font-size: 15px;
+	
+	margin: auto;
   }
 }
