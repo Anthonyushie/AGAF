@@ -400,8 +400,9 @@ h3 {
 .about-col {
 	line-height: 30px;
 }
-.about-col h1 {
+.about-col h2 {
 	padding-top: 0;
+	text-align: center;
 }
 .about-col p {
 	font-size: medium;
