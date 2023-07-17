@@ -473,6 +473,8 @@ p {
 .blogtxt {
 	line-height: 30px;
 	padding: 10px 3%;
+	font-size: 16px;
+	font-weight: 500;
 }
 /**************Donate************/
 .sub-headerD {
