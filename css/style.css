@@ -80,13 +80,13 @@ nav img {
 	transform: translate(-50%, -50%);
 	text-align: center;
 }
-.text-box h1 {
-	font-size: 55px;
+.text-box h2 {
+	font-size: 30px;
 }
 .text-box p {
 	margin: 10px 0 40px;
 	font-family: URW Chacery L, cursive;
-	font-size: 14px;
+	font-size: 19px;
 	color: #fff;
 }
 .hero-btn {
