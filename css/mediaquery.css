@@ -1,6 +1,6 @@
 /** @format */
 
-@media (max-width: 718px) {
+@media (max-width: 768px) {
 	/* Home Page */
 	html,
 	body {
@@ -212,6 +212,10 @@
 
 	.corevaluewrp a {
 		width: 30%;
+	}
+
+	.about-col h2 {
+		font-size: 20px;
 	}
 }
 
