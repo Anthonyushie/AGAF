@@ -204,10 +204,6 @@
 @media (max-width: 595px) {
 	.corevaluewrp {
 		height: 550px;
-		display: flex;
-		flex-direction: column;
-		justify-content: center;
-		border-radius: 5px;
 	}
 
 	.coreval li {
@@ -226,5 +222,15 @@
 
 	.corevaluewrp a {
 		width: 40%;
+	}
+}
+
+@media (max-width: 320px) {
+	.corevaluewrp {
+		height: 600px;
+	}
+
+	.corevaluewrp a {
+		width: 50%;
 	}
 }
