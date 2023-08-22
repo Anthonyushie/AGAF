@@ -1,7 +1,7 @@
 /** @format */
 
 @media (max-width: 718px) {
-  /* Home Page */
+	/* Home Page */
 	html,
 	body {
 		max-width: 100%;
@@ -120,10 +120,111 @@
 		margin-top: 20px;
 	}
 
-  /* TRUSTEE */
-  .founders-col2 p{
-    font-size: 15px;
-	
-	margin: auto;
-  }
+	/* TRUSTEE */
+	.founders-col2 p {
+		font-size: 15px;
+
+		margin: auto;
+	}
+
+	.aboutlft {
+		width: 100%;
+	}
+
+	.aboutlft h2 {
+		text-align: center;
+	}
+
+	.aboutlft p {
+		font-size: 18px;
+	}
+
+	.aboutrght {
+		display: none;
+	}
+
+	/* ===> ===> About Cards <=== <=== */
+	.cardwrp {
+		grid-template-columns: repeat(2, 1fr);
+	}
+
+	.ourmissionwrp {
+		padding-bottom: none;
+	}
+
+	.mission {
+		flex-direction: column;
+		background-color: #b9983c;
+		border-radius: 5px;
+	}
+
+	.vision {
+		flex-direction: column-reverse;
+	}
+
+	.missionimg {
+		width: 100%;
+	}
+
+	.missiontxt {
+		width: 100%;
+	}
+
+	.missiontxt p {
+		color: white;
+		padding: 0px 3%;
+	}
+
+	.missiontxt h2 {
+		text-align: center;
+		color: white;
+	}
+
+	.obj li {
+		font-size: 18px;
+		font-weight: 300;
+		padding: 10px 4%;
+		color: white;
+		list-style: none;
+	}
+
+	.objtxt h2 {
+		font-size: 30px;
+	}
+
+	.objective {
+		margin-bottom: 30px;
+	}
+
+	.corevaluewrp {
+		height: 500px;
+	}
+}
+
+@media (max-width: 595px) {
+	.corevaluewrp {
+		height: 550px;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		border-radius: 5px;
+	}
+
+	.coreval li {
+		font-size: 16px;
+	}
+
+	.corevaluewrp a {
+		width: 30%;
+	}
+}
+
+@media (max-width: 420px) {
+	.cardwrp {
+		grid-template-columns: repeat(1, 1fr);
+	}
+
+	.corevaluewrp a {
+		width: 40%;
+	}
 }

@@ -93,19 +93,21 @@ nav img {
 .hero-btn {
 	display: inline-block;
 	text-decoration: none;
-	color: #fff;
 	border: 1px solid #fff;
 	padding: 12px 34px;
 	font-size: 15px;
 	background: transparent;
 	position: relative;
 	cursor: pointer;
+	background: #b9983c;
+	transition: 1s;
+	color: white;
 }
-.hero-btn:hover {
+/* .hero-btn:hover {
 	border: 1px solid #b9983c;
 	background: #b9983c;
 	transition: 1s;
-}
+} */
 
 .navbar .fa {
 	display: none;
