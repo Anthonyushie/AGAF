@@ -225,9 +225,9 @@
 	}
 }
 
-@media (max-width: 320px) {
+@media (max-width: 350px) {
 	.corevaluewrp {
-		height: 600px;
+		height: 650px;
 	}
 
 	.corevaluewrp a {
