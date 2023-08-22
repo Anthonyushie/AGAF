@@ -58,7 +58,7 @@ nav img {
 .navbar ul li a {
 	color: #fff;
 	text-decoration: none;
-	font-size: 13px;
+	font-size: 16px;
 }
 .navbar ul li::after {
 	content: "";
@@ -81,13 +81,13 @@ nav img {
 	transform: translate(-50%, -50%);
 	text-align: center;
 }
-.text-box h1 {
-	font-size: 55px;
+.text-box h2 {
+	font-size: 30px;
 }
 .text-box p {
 	margin: 10px 0 40px;
 	font-family: URW Chacery L, cursive;
-	font-size: 14px;
+	font-size: 19px;
 	color: #fff;
 }
 .hero-btn {
@@ -119,12 +119,12 @@ nav img {
 	padding: 100px 3% 0px 3%;
 }
 h1 {
-	font-size: 36px;
+	font-size: 35px;
 	font-weight: 600;
 }
 p {
 	color: #3a3322;
-	font-size: 14px;
+	font-size: 17px;
 	line-height: 22px;
 	padding: 10px;
 	font-weight: 200;
@@ -161,12 +161,16 @@ h3 {
 	text-align: center;
 	padding: 50px 3% 40px 3%;
 }
+.activities h1{
+	font-size: 35px;
+}
 .act-col {
 	flex-basis: 32%;
 	border-radius: 10px;
 	margin-bottom: 30px;
 	position: relative;
 	overflow: hidden;
+	
 }
 .act-col img {
 	width: 100%;

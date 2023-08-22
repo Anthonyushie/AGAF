@@ -29,6 +29,7 @@
 	}
 	.navbar ul li {
 		display: block;
+		font-size: 13px;
 	}
 	.navbar .fa {
 		display: block;
@@ -51,6 +52,7 @@
 		z-index: 9999;
 		transition: right 1s;
 		text-align: left;
+		font-size: 13px;
 	}
 
 	.navbar__item {
