@@ -17,6 +17,9 @@
 	justify-content: center;
 	gap: 20px;
 }
+.founders2 p{
+	font-weight: 400;
+}
 
 .imgages {
 	width: 50%;
