@@ -3,6 +3,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;300;400;500;600;700&family=Poppins:wght@200;300;400;500;600;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300&display=swap');
 
 * {
 	margin: 0;
@@ -27,7 +28,7 @@
 	background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)),
 		url(/images/bg_1.jpg);
 }
-nav {
+.navbar {
 	display: flex;
 	padding: 2% 3%;
 	justify-content: space-between;
@@ -130,12 +131,18 @@ h1 {
 	font-size: 35px;
 	font-weight: 600;
 }
-p {
+
+.offer p {
 	color: #3a3322;
 	font-size: 17px;
 	line-height: 22px;
 	padding: 10px;
 	font-weight: 200;
+}
+
+p {
+	color: #3a3322;
+	font-size: 17px;
 }
 
 .offer-col {
@@ -329,24 +336,83 @@ h3 {
 }
 
 /***************Footer**************/
+
 .footer {
 	width: 100%;
-	text-align: center;
-	padding: 30px 0;
+	background-color: rgb(245, 245, 245);
+	padding: 30px 4%;
 }
-.footer h4 {
-	margin-bottom: 25px;
-	margin-top: 20px;
-	font-weight: 600;
+
+.ftrcont {
+	width: 100%;
+	display: grid;
+	column-gap: 20px;
+	grid-template-columns: repeat(4, 1fr);
+	/* height: 350px; */
 }
+
+.logocol a {
+	text-decoration: none;
+	color: black;
+	font-size: 1.8rem;
+}
+
+.footernav li {
+	list-style: none;
+	padding: 5px 0px;
+}
+
+.footernav {
+	padding-top: 20px;
+}
+
+.company {
+	display: flex;
+	flex-direction: column;
+	padding: 0px 20%;
+}
+
+.footernav li a {
+	text-decoration: none;
+	font-size: 17px;
+	color: rgb(27, 27, 27);
+}
+
+.footernav li a:hover {
+	text-decoration: underline;
+	transition: all 0.1s ease-in;
+}
+
+.contacts p {
+	font-weight: 300;
+}
+
+.contacts p a {
+	color: black;
+}
+
+.ftrcont h1 {
+	font-size: 23px;
+	font-weight: 400px;
+}
+
 .icons .fa {
 	color: #b9983c;
-	margin: 0 13px;
 	cursor: pointer;
-	padding: 18px 0;
+	font-size: 24px;
+	padding: 15px 10px 10px 0px;
 }
+
 .fa-heart-o {
 	color: #b9983c;
+}
+
+.footer-txt {
+	font-weight: 800;
+	padding: 0px 10%;
+	font-size: 17px;
+	font-family: 'Rajdhani', sans-serif;
+	font-style: italic;
 }
 
 /*---------------ABOUT US PAGE-----------------*/
@@ -724,7 +790,6 @@ p {
 	border-radius: 100%;
 	box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
 	pointer-events: none;
-	transition: all 5s linear !important;
 }
 
 .to-top span {
@@ -741,3 +806,5 @@ p {
 .material-symbols-outlined {
 	font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 48;
 }
+
+/* ===> ===> Footer <=== <=== */
