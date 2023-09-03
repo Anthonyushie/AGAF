@@ -265,6 +265,10 @@
 		width: 40%;
 	}
 
+	/* === === Blog === === */
+	.blogtxt h1 {
+		font-size: 20px;
+	}
 	/* === === === Footer === === === */
 	.ftrcont {
 		grid-template-columns: repeat(1, 1fr);
