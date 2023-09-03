@@ -200,6 +200,17 @@
 		height: 500px;
 	}
 
+		/* === === Blog === === */
+		.blogwrp {
+			display: flex;
+			align-items: center;
+			justify-content: center;
+		}
+
+		.blogcrd {
+			width: 100%;
+		}
+
 	/* === === === Footer === === === */
 	.ftrcont {
 		grid-template-columns: repeat(2, 1fr);
