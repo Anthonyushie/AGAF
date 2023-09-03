@@ -689,7 +689,7 @@ h3 {
 
 .blogcrd {
 	width: 38%;
-	background-color: rgba(245, 245, 245, 0.438);
+	background-color: rgba(245, 245, 245, 0.329);
 	border-radius: 5px;
 }
 
@@ -734,6 +734,32 @@ h3 {
 	font-size: 18px;
 	font-weight: 800;
 	padding-bottom: 7px;
+}
+
+/* === === Blog details === ===  */
+
+.dtlswrp {
+	background-color: whitesmoke;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.blog-text {
+	margin: 40px 0px;
+	padding: 20px 0px;
+	background-color: white;
+	width: 90%;
+	border-radius: 5px;
+}
+
+.blog-text h1{
+	text-align: center;
+}
+
+.blogdtls {
+	font-weight: 300;
+	font-size: 15px;
 }
 /**************Donate************/
 .sub-headerD {
